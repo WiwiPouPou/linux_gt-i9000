@@ -993,6 +993,9 @@ choice
 config KERNEL_DEBUG_SEC
         bool "KERNEL_DEBUG_SEC"
 
+config NO_KERNEL_DEBUG_SEC
+        bool "NO_KERNEL_DEBUG_SEC"
+
 endchoice
 
 endmenu
